@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)http://localhost:3000/admin/cars/1/edit -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Edit Car | Test Rails App410</title>
+<link href="http://localhost:3000/assets/active_admin.css?body=1" media="screen" rel="stylesheet"><link href="http://localhost:3000/assets/active_admin/print.css?body=1" media="print" rel="stylesheet"><script src="./files/jquery.js"></script>
+<script src="./files/core.js"></script>
+<script src="./files/datepicker.js"></script>
+<script src="./files/widget.js"></script>
+<script src="./files/button.js"></script>
+<script src="./files/mouse.js"></script>
+<script src="./files/draggable.js"></script>
+<script src="./files/position.js"></script>
+<script src="./files/resizable.js"></script>
+<script src="./files/dialog.js"></script>
+<script src="./files/sortable.js"></script>
+<script src="./files/tabs.js"></script>
+<script src="./files/jquery_ujs.js"></script>
+<script src="./files/base.js"></script>
+<script src="./files/batch_actions.js"></script>
+<script src="./files/checkbox-toggler.js"></script>
+<script src="./files/dropdown-menu.js"></script>
+<script src="./files/flash.js"></script>
+<script src="./files/has_many.js"></script>
+<script src="./files/modal_dialog.js"></script>
+<script src="./files/per_page.js"></script>
+<script src="./files/popover.js"></script>
+<script src="./files/table-checkbox-toggler.js"></script>
+<script src="./files/jquery-ui.js"></script>
+<script src="./files/jquery(1).js"></script>
+<script src="./files/application.js"></script>
+<script src="./files/active_admin.js"></script><meta content="authenticity_token" name="csrf-param">
+<meta content="HzuShIgqBZlC0N7vVDC/V2/JvP9gdUgVA4a9j9OeD8A=" name="csrf-token">  <link rel="stylesheet" type="text/css" href="./files/includes.css"><script async="" type="text/javascript" src="./files/jquery.tmpl.js"></script></head>
+  <body class="edit admin_cars active_admin logged_in admin_namespace"><div id="StayFocusd-infobar" style="display:none;">
+    <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+    <span id="StayFocusd-infobar-msg"></span>
+    <span id="StayFocusd-infobar-links">
+        <a id="StayFocusd-infobar-never-show">masquer définitivement</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a id="StayFocusd-infobar-hide">masquer une&nbsp;fois</a>
+    </span>
+</div>
+    <div id="wrapper">
+      <div class="header" id="header">
+        <h1 class="site_title" id="site_title">Test Rails App410</h1>
+        <ul class="header-item tabs" id="tabs">
+          <li id="dashboard"><a href="http://localhost:3000/admin/dashboard">Dashboard</a></li>
+          <li id="admin_users"><a href="http://localhost:3000/admin/admin_users">Admin Users</a></li>
+          <li id="stores"><a href="http://localhost:3000/admin/stores">Bookstores</a></li>
+          <li class="current" id="cars"><a href="http://localhost:3000/admin/cars">Cars</a></li>
+          <li id="categories"><a href="http://localhost:3000/admin/categories">Categories</a></li>
+          <li id="comments"><a href="http://localhost:3000/admin/comments">Comments</a></li>
+          <li id="parts"><a href="http://localhost:3000/admin/parts">Parts</a></li>
+          <li id="posts"><a href="http://localhost:3000/admin/posts">Posts</a></li>
+          <li id="users"><a href="http://localhost:3000/admin/users">Users</a></li>
+        </ul>
+        <ul class="header-item tabs" id="utility_nav">
+          <li id="current_user"><a href="http://localhost:3000/admin/admin_users/1">admin@example.com</a></li>
+          <li id="logout"><a data-method="get" href="http://localhost:3000/admin/logout">Logout</a></li>
+        </ul>
+      </div>
+      <div class="title_bar" id="title_bar">
+        <div id="titlebar_left">
+          <span class="breadcrumb">
+<a href="http://localhost:3000/admin">Admin</a>            <span class="breadcrumb_sep">/</span>
+<a href="http://localhost:3000/admin/cars">Cars</a>            <span class="breadcrumb_sep">/</span>
+<a href="http://localhost:3000/admin/cars/1">Car #1</a>            <span class="breadcrumb_sep">/</span>
+          </span>
+          <h2 id="page_title">Edit Car</h2>
+        </div>
+        <div id="titlebar_right"></div>
+      </div>
+      <div class="flashes"></div>
+      <div id="active_admin_content" class="without_sidebar">
+        <div id="main_content_wrapper">
+          <div id="main_content">
+<form accept-charset="UTF-8" action="http://localhost:3000/admin/cars/1" class="formtastic car" id="edit_car" method="post" novalidate="novalidate"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="patch"><input name="authenticity_token" type="hidden" value="HzuShIgqBZlC0N7vVDC/V2/JvP9gdUgVA4a9j9OeD8A="></div><fieldset class="inputs"><legend><span>cars</span></legend><ol><li class="has_many_container car_parts" data-sortable-start="0"><h3>Car part</h3><fieldset class="inputs has_many_fields"><ol><li class="radio input optional" id="car_car_parts_attributes_0_part_input"><fieldset class="choices"><legend class="label"><label>Part</label></legend><ol class="choices-group"><li class="choice"><label for="car_car_parts_attributes_0_part_id_2"><input id="car_car_parts_attributes_0_part_id_2" name="car[car_parts_attributes][0][part_id]" type="radio" value="2">wheel</label></li>
+<li class="choice"><label for="car_car_parts_attributes_0_part_id_3"><input id="car_car_parts_attributes_0_part_id_3" name="car[car_parts_attributes][0][part_id]" type="radio" value="3">door</label></li>
+<li class="choice"><label for="car_car_parts_attributes_0_part_id_4"><input checked="checked" id="car_car_parts_attributes_0_part_id_4" name="car[car_parts_attributes][0][part_id]" type="radio" value="4">engine</label></li></ol></fieldset>
+
+</li><li class="has_many_delete boolean input optional" id="car_car_parts_attributes_0__destroy_input"><input name="car[car_parts_attributes][0][_destroy]" type="hidden" value="0"><label class="" for="car_car_parts_attributes_0__destroy"><input id="car_car_parts_attributes_0__destroy" name="car[car_parts_attributes][0][_destroy]" type="checkbox" value="1">Delete</label>
+
+</li></ol></fieldset><input id="car_car_parts_attributes_0_id" name="car[car_parts_attributes][0][id]" type="hidden" value="1"><fieldset class="inputs has_many_fields"><ol><li class="radio input optional" id="car_car_parts_attributes_1_part_input"><fieldset class="choices"><legend class="label"><label>Part</label></legend><ol class="choices-group"><li class="choice"><label for="car_car_parts_attributes_1_part_id_2"><input id="car_car_parts_attributes_1_part_id_2" name="car[car_parts_attributes][1][part_id]" type="radio" value="2">wheel</label></li>
+<li class="choice"><label for="car_car_parts_attributes_1_part_id_3"><input checked="checked" id="car_car_parts_attributes_1_part_id_3" name="car[car_parts_attributes][1][part_id]" type="radio" value="3">door</label></li>
+<li class="choice"><label for="car_car_parts_attributes_1_part_id_4"><input id="car_car_parts_attributes_1_part_id_4" name="car[car_parts_attributes][1][part_id]" type="radio" value="4">engine</label></li></ol></fieldset>
+
+</li><li class="has_many_delete boolean input optional" id="car_car_parts_attributes_1__destroy_input"><input name="car[car_parts_attributes][1][_destroy]" type="hidden" value="0"><label class="" for="car_car_parts_attributes_1__destroy"><input id="car_car_parts_attributes_1__destroy" name="car[car_parts_attributes][1][_destroy]" type="checkbox" value="1">Delete</label>
+
+</li></ol></fieldset><input id="car_car_parts_attributes_1_id" name="car[car_parts_attributes][1][id]" type="hidden" value="2"><a class="button has_many_add" data-html="&lt;fieldset class=&quot;inputs has_many_fields&quot;&gt;&lt;ol&gt;&lt;li class=&quot;radio input optional&quot; id=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_input&quot;&gt;&lt;fieldset class=&quot;choices&quot;&gt;&lt;legend class=&quot;label&quot;&gt;&lt;label&gt;Part&lt;/label&gt;&lt;/legend&gt;&lt;ol class=&quot;choices-group&quot;&gt;&lt;li class=&quot;choice&quot;&gt;&lt;label for=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_2&quot;&gt;&lt;input id=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_2&quot; name=&quot;car[car_parts_attributes][NEW_CAR_PART_RECORD][part_id]&quot; type=&quot;radio&quot; value=&quot;2&quot; /&gt;wheel&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;choice&quot;&gt;&lt;label for=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_3&quot;&gt;&lt;input id=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_3&quot; name=&quot;car[car_parts_attributes][NEW_CAR_PART_RECORD][part_id]&quot; type=&quot;radio&quot; value=&quot;3&quot; /&gt;door&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;choice&quot;&gt;&lt;label for=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_4&quot;&gt;&lt;input id=&quot;car_car_parts_attributes_NEW_CAR_PART_RECORD_part_id_4&quot; name=&quot;car[car_parts_attributes][NEW_CAR_PART_RECORD][part_id]&quot; type=&quot;radio&quot; value=&quot;4&quot; /&gt;engine&lt;/label&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/fieldset&gt;
+
+&lt;/li&gt;&lt;li&gt;&lt;a class=&quot;button has_many_remove&quot; href=&quot;#&quot;&gt;Remove&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/fieldset&gt;" data-placeholder="NEW_CAR_PART_RECORD" href="http://localhost:3000/admin/cars/1/edit#">Add New Car part</a></li></ol></fieldset><fieldset class="actions"><ol><li class="action input_action " id="car_submit_action"><input name="commit" type="submit" value="Update Car"></li><li class="cancel"><a href="http://localhost:3000/admin/cars">Cancel</a></li></ol></fieldset></form>          </div>
+        </div>
+      </div>
+      <div class="footer" id="footer">
+        <p>Powered by <a href="http://www.activeadmin.info/">Active Admin</a> 1.0.0.pre</p>
+      </div>
+    </div>
+  <script async="" type="text/javascript" id="mini-profiler" src="./files/includes.js" data-version="898a13ca6797c6bc1fee313e17d388b0" data-path="/mini-profiler-resources/" data-current-id="6k3c0klehs9j4o15r6k" data-ids="6k3c0klehs9j4o15r6k,64cjfx3jimlppp3z0vkn" data-position="left" data-trivial="false" data-children="false" data-max-traces="10" data-controls="false" data-authorized="true" data-toggle-shortcut="Alt+P" data-start-hidden="false"></script>
+
+
+<div class="profiler-results profiler-left profiler-no-controls"><div class="profiler-result">      <div class="profiler-button " style="display: block;">            <span class="profiler-number">         2852.1 <span class="profiler-unit">ms</span>       </span>     </div>      <div class="profiler-popup">       <div class="profiler-info">         <span class="profiler-name">           /admin/cars/1/edit <span class="profiler-overall-duration">(2852.1 ms)</span>         </span>         <span class="profiler-server-time">localhost on Tue, 24 Feb 2015 09:38:05 GMT</span>       </div>       <div class="profiler-output">         <table class="profiler-timings">           <thead>             <tr>               <th></th>               <th>duration (ms)</th>               <th class="profiler-duration-with-children">with children (ms)</th>               <th class="time-from-start">from start (ms)</th>                            <th colspan="2">query time (ms)</th>                                       </tr>           </thead>           <tbody>             <tr class="" data-timing-id="dqu5ow5hm11149pfiv97">     <td class="profiler-label" title="">       <span class="profiler-indent"></span> GET http://localhost:3000/admin/cars/1/edit     </td>     <td class="profiler-duration" title="duration of this step without any children&#39;s durations">       10.0     </td>     <td class="profiler-duration profiler-duration-with-children" title="duration of this step and its children">       2852.1     </td>     <td class="profiler-duration time-from-start" title="time elapsed since profiling started">       <span class="profiler-unit">+</span>1.0     </td>         <td colspan="2"></td>           </tr>                <tr class="" data-timing-id="c231x4wauw3k8ptp1lf8">     <td class="profiler-label" title="">       <span class="profiler-indent">&nbsp;</span> Executing action: edit     </td>     <td class="profiler-duration" title="duration of this step without any children&#39;s durations">       10.8     </td>     <td class="profiler-duration profiler-duration-with-children" title="duration of this step and its children">       2842.1     </td>     <td class="profiler-duration time-from-start" title="time elapsed since profiling started">       <span class="profiler-unit">+</span>9.0     </td>         <td class="profiler-duration " title="">       <a class="profiler-queries-show">                  2 <span class="profiler-unit">sql</span>       </a>     </td>     <td class="profiler-duration" title="aggregate duration of all queries in this step (excludes children)">       0.7     </td>           </tr>                <tr class="" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-label" title="">       <span class="profiler-indent">&nbsp;&nbsp;</span> Rendering: active_admin/resource/edit     </td>     <td class="profiler-duration" title="duration of this step without any children&#39;s durations">       2831.3     </td>     <td class="profiler-duration profiler-duration-with-children" title="duration of this step and its children">       2831.3     </td>     <td class="profiler-duration time-from-start" title="time elapsed since profiling started">       <span class="profiler-unit">+</span>19.0     </td>         <td class="profiler-duration " title="">       <a class="profiler-queries-show">                  5 <span class="profiler-unit">sql</span>       </a>     </td>     <td class="profiler-duration" title="aggregate duration of all queries in this step (excludes children)">       3.0     </td>           </tr>                               </tbody>           <tfoot>             <tr>               <td colspan="3">                                  <a class="profiler-toggle-duration-with-children" title="toggles column with aggregate child durations">show time with children</a>               </td>                            <td colspan="2" class="profiler-number profiler-percent-in-sql" title="7 queries spent 3.7 ms of total request time">                 0.1                 <span class="profiler-unit">% in sql</span>               </td>                                       </tr>           </tfoot>         </table>                  <table class="profiler-timings profiler-client-timings">           <thead>             <tr>               <th>client event</th>               <th>duration (ms)</th>               <th>from start (ms)</th>             </tr>           </thead>           <tbody>                          <tr class="profiler-trivial">               <td class="profiler-label">Connect</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>0.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Domain Lookup</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>0.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Fetch</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>0.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Navigation</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>0.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Request</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>4.0               </td>             </tr>                          <tr class="">               <td class="profiler-label">Response</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>2.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>2863.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Unload Event</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>2865.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">domLoading</td>               <td class="profiler-duration">                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>2899.0               </td>             </tr>                          <tr class="">               <td class="profiler-label">Dom Content Loaded Event</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>10.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3513.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">domInteractive</td>               <td class="profiler-duration">                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3513.0               </td>             </tr>                          <tr class="">               <td class="profiler-label">First Paint Time</td>               <td class="profiler-duration">                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3577.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">domComplete</td>               <td class="profiler-duration">                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3580.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">Load Event</td>               <td class="profiler-duration">                                  <span class="profiler-unit"></span>0.0                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3581.0               </td>             </tr>                          <tr class="profiler-trivial">               <td class="profiler-label">First Paint After Load Time</td>               <td class="profiler-duration">                                </td>               <td class="profiler-duration time-from-start">                 <span class="profiler-unit">+</span>3744.0               </td>             </tr>                        </tbody>           <tfoot>             <tr><td colspan="3">               <a href="http://localhost:3000/mini-profiler-resources/results?id=6k3c0klehs9j4o15r6k" class="profiler-share-profiler-results" target="_blank">share</a>         <a class="profiler-toggle-trivial" data-show-on-load="" title="toggles any rows with &lt; 2 ms">     show trivial   </a>                </td>           </tr></tfoot>         </table>                </div>     </div>         <div class="profiler-queries">       <table>       <thead>         <tr>           <th style="text-align:right">step<br>time from start<br>query type<br>duration</th>           <th style="text-align:left">call stack<br>query</th>         </tr>       </thead>       <tbody>                    <tr class="profiler-gap-info">     <td class="profiler-info">       12.60 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>GET http://localhost:3000/admin/cars/1/edit — 8.00 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="" data-timing-id="c231x4wauw3k8ptp1lf8">     <td class="profiler-info">       <div>Executing action: edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>12.6 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.4ms">0.4 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace"></pre>         <pre class="prettyprint lang-sql"><code>SELECT  "admin_users".* FROM "admin_users"  WHERE "admin_users"."id" = 1  ORDER BY "admin_users"."id" ASC LIMIT 1   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info profiler-trivial-gaps">     <td class="profiler-info">       1.70 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Executing action: edit — 1.70 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="profiler-odd" data-timing-id="c231x4wauw3k8ptp1lf8">     <td class="profiler-info">       <div>Executing action: edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>14.7 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.3ms">0.3 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace"></pre>         <pre class="prettyprint lang-sql"><code>SELECT  "cars".* FROM "cars"  WHERE "cars"."id" = ? LIMIT 1   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info">     <td class="profiler-info">       2720.40 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 2716.40 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-info">       <div>Rendering: active_admin/resource/edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>2735.4 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.6ms">0.6 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace"></pre>         <pre class="prettyprint lang-sql"><code>SELECT  "cars".* FROM "cars"  WHERE "cars"."id" = 1 LIMIT 1   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info">     <td class="profiler-info">       7.70 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 7.70 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="profiler-odd" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-info">       <div>Rendering: active_admin/resource/edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>2743.7 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.3ms">0.3 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace">app/admin/car.rb:15:in `block (3 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:14:in `block (2 levels) in &lt;top (required)&gt;'
+</pre>         <pre class="prettyprint lang-sql"><code>SELECT "car_parts".* FROM "car_parts"  WHERE "car_parts"."car_id" = ?   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info">     <td class="profiler-info">       18.20 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 18.20 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-info">       <div>Rendering: active_admin/resource/edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>2762.2 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.8ms">0.8 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace">app/admin/car.rb:16:in `block (4 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:15:in `block (3 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:14:in `block (2 levels) in &lt;top (required)&gt;'
+</pre>         <pre class="prettyprint lang-sql"><code>SELECT "parts".* FROM "parts"   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info">     <td class="profiler-info">       7.00 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 7.00 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="profiler-odd" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-info">       <div>Rendering: active_admin/resource/edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>2770.0 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 1ms">1.0 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace">app/admin/car.rb:16:in `block (4 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:15:in `block (3 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:14:in `block (2 levels) in &lt;top (required)&gt;'
+</pre>         <pre class="prettyprint lang-sql"><code>SELECT  "parts".* FROM "parts"  WHERE "parts"."id" = ? LIMIT 1   </code></pre>       </div>     </td>   </tr>                               <tr class="profiler-gap-info">     <td class="profiler-info">       36.70 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 36.70 <span class="profiler-unit">ms</span></div>     </td>   </tr>           <tr class="" data-timing-id="s8pgxj0tafn42w02l2gs">     <td class="profiler-info">       <div>Rendering: active_admin/resource/edit</div>       <div class="profiler-number"><span class="profiler-unit">T+</span>2807.7 <span class="profiler-unit">ms</span></div>       <div>                  Reader       </div>       <div title="first result fetched: 0.3ms">0.3 <span class="profiler-unit">ms</span></div>     </td>     <td>       <div class="query">         <pre class="profiler-stack-trace">app/admin/car.rb:16:in `block (4 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:15:in `block (3 levels) in &lt;top (required)&gt;'
+app/admin/car.rb:14:in `block (2 levels) in &lt;top (required)&gt;'
+</pre>         <pre class="prettyprint lang-sql"><code>SELECT  "parts".* FROM "parts"  WHERE "parts"."id" = ? LIMIT 1   </code></pre>       </div>     </td>   </tr>                        <tr class="profiler-gap-info">     <td class="profiler-info">       44.07 <span class="profiler-unit">ms</span>       </td>     <td class="query">       <div>Rendering: active_admin/resource/edit — 42.29 <span class="profiler-unit">ms</span></div>     </td>   </tr>                           </tbody>       </table>       <p class="profiler-trivial-gap-container">         <a class="profiler-toggle-trivial-gaps" href="http://localhost:3000/admin/cars/1/edit#">show trivial gaps</a>       </p>     </div>       </div><div class="profiler-result">      <div class="profiler-button " style="display: block;">            <span class="profiler-number">         0.4 <span class="profiler-unit">ms</span>       </span>     </div>      <div class="profiler-popup">       <div class="profiler-info">         <span class="profiler-name">           /favicon.ico <span class="profiler-overall-duration">(0.4 ms)</span>         </span>         <span class="profiler-server-time">localhost on Tue, 24 Feb 2015 09:37:58 GMT</span>       </div>       <div class="profiler-output">         <table class="profiler-timings">           <thead>             <tr>               <th></th>               <th>duration (ms)</th>               <th class="profiler-duration-with-children">with children (ms)</th>               <th class="time-from-start">from start (ms)</th>                            <th colspan="2">query time (ms)</th>                                       </tr>           </thead>           <tbody>             <tr class="profiler-trivial" data-timing-id="pt7olul524xto55cqcmm">     <td class="profiler-label" title="">       <span class="profiler-indent"></span> GET http://localhost:3000/favicon.ico     </td>     <td class="profiler-duration" title="duration of this step without any children&#39;s durations">       0.4     </td>     <td class="profiler-duration profiler-duration-with-children" title="duration of this step and its children">       0.4     </td>     <td class="profiler-duration time-from-start" title="time elapsed since profiling started">       <span class="profiler-unit">+</span>0.0     </td>         <td colspan="2"></td>           </tr>               </tbody>           <tfoot>             <tr>               <td colspan="3">                                  <a href="http://localhost:3000/mini-profiler-resources/results?id=64cjfx3jimlppp3z0vkn" class="profiler-share-profiler-results" target="_blank">share</a>         <a class="profiler-toggle-trivial" data-show-on-load="" title="toggles any rows with &lt; 2 ms">     show trivial   </a>                                     <a class="profiler-toggle-duration-with-children" title="toggles column with aggregate child durations">show time with children</a>               </td>                            <td colspan="2" class="profiler-number profiler-percent-in-sql" title="0 queries spent 0.0 ms of total request time">                 0.0                 <span class="profiler-unit">% in sql</span>               </td>                                       </tr>           </tfoot>         </table>                </div>     </div>         <div class="profiler-queries">       <table>       <thead>         <tr>           <th style="text-align:right">step<br>time from start<br>query type<br>duration</th>           <th style="text-align:left">call stack<br>query</th>         </tr>       </thead>       <tbody>                </tbody>       </table>       <p class="profiler-trivial-gap-container">         <a class="profiler-toggle-trivial-gaps" href="http://localhost:3000/admin/cars/1/edit#">show trivial gaps</a>       </p>     </div>       </div></div><script id="profilerTemplate" type="text/x-jquery-tmpl">
+
+  <div class="profiler-result">
+
+    <div class="profiler-button {{if HasDuplicateSqlTimings}}profiler-warning{{/if}}">
+    {{if HasDuplicateSqlTimings}}<span class="profiler-nuclear">!</span>{{/if}}
+      <span class="profiler-number">
+        ${MiniProfiler.formatDuration(DurationMilliseconds)} <span class="profiler-unit">ms</span>
+      </span>
+    </div>
+
+    <div class="profiler-popup">
+      <div class="profiler-info">
+        <span class="profiler-name">
+          ${Name} <span class="profiler-overall-duration">(${MiniProfiler.formatDuration(DurationMilliseconds)} ms)</span>
+        </span>
+        <span class="profiler-server-time">${MachineName} on ${MiniProfiler.renderDate(Started)}</span>
+      </div>
+      <div class="profiler-output">
+        <table class="profiler-timings">
+          <thead>
+            <tr>
+              <th></th>
+              <th>duration (ms)</th>
+              <th class="profiler-duration-with-children">with children (ms)</th>
+              <th class="time-from-start">from start (ms)</th>
+            {{if HasSqlTimings}}
+              <th colspan="2">query time (ms)</th>
+            {{/if}}
+            {{each CustomTimingNames}}
+              <th colspan="2">${$value.toLowerCase()} (ms)</th>
+            {{/each}}
+            </tr>
+          </thead>
+          <tbody>
+            {{tmpl({timing:Root, page:this.data}) "#timingTemplate"}}
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">
+                {{if !ClientTimings}}
+                {{tmpl "#linksTemplate"}}
+                {{/if}}
+                <a class="profiler-toggle-duration-with-children" title="toggles column with aggregate child durations">show time with children</a>
+              </td>
+            {{if HasSqlTimings}}
+              <td colspan="2" class="profiler-number profiler-percent-in-sql" title="${MiniProfiler.getSqlTimingsCount(Root)} queries spent ${MiniProfiler.formatDuration(DurationMillisecondsInSql)} ms of total request time">
+                ${MiniProfiler.formatDuration(DurationMillisecondsInSql / DurationMilliseconds * 100)}
+                <span class="profiler-unit">% in sql</span>
+              </td>
+            {{/if}}
+            {{each CustomTimingNames}}
+              <td colspan="2" class="profiler-number profiler-percentage-in-sql" title="${CustomTimingStats[$value].Count} ${$value.toLowerCase()} invocations spent ${MiniProfiler.formatDuration(CustomTimingStats[$value].Duration)} ms of total request time">
+                ${MiniProfiler.formatDuration(CustomTimingStats[$value].Duration / DurationMilliseconds * 100)}
+                <span class="profiler-unit">% in ${$value.toLowerCase()}</span>
+              </td>
+            {{/each}}
+            </tr>
+          </tfoot>
+        </table>
+        {{if ClientTimings}}
+        <table class="profiler-timings profiler-client-timings">
+          <thead>
+            <tr>
+              <th>client event</th>
+              <th>duration (ms)</th>
+              <th>from start (ms)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{each MiniProfiler.getClientTimings(ClientTimings)}}
+            <tr class="{{if $value.isTrivial }}profiler-trivial{{/if}}">
+              <td class="profiler-label">${$value.name}</td>
+              <td class="profiler-duration">
+                {{if $value.duration >= 0}}
+                <span class="profiler-unit"></span>${MiniProfiler.formatDuration($value.duration)}
+                {{/if}}
+              </td>
+              <td class="profiler-duration time-from-start">
+                <span class="profiler-unit">+</span>${MiniProfiler.formatDuration($value.start)}
+              </td>
+            </tr>
+            {{/each}}
+          </tbody>
+          <tfoot>
+            <td colspan="3">
+              {{tmpl "#linksTemplate"}}
+            </td>
+          </tfoot>
+        </table>
+        {{/if}}
+      </div>
+    </div>
+
+  {{if HasSqlTimings}}
+    <div class="profiler-queries">
+      <table>
+      <thead>
+        <tr>
+          <th style="text-align:right">step<br />time from start<br />query type<br />duration</th>
+          <th style="text-align:left">call stack<br />query</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{each(i, s) MiniProfiler.getSqlTimings(Root)}}
+          {{tmpl({ g:s.prevGap }) "#sqlGapTemplate"}}
+          {{tmpl({ i:i, s:s }) "#sqlTimingTemplate"}}
+          {{if s.nextGap}}
+            {{tmpl({ g:s.nextGap }) "#sqlGapTemplate"}}
+          {{/if}}
+        {{/each}}
+      </tbody>
+      </table>
+      <p class="profiler-trivial-gap-container">
+        <a class="profiler-toggle-trivial-gaps" href="#">show trivial gaps</a>
+      </p>
+    </div>
+  {{/if}}
+
+  </div>
+
+</script>
+
+<script id="linksTemplate" type="text/x-jquery-tmpl">
+  <a href="${MiniProfiler.shareUrl(Id)}" class="profiler-share-profiler-results" target="_blank">share</a>
+  {{if CustomLink}}
+  <a href="${CustomLink}" class="profiler-custom-link" target="_blank">${CustomLinkName}</a>
+  {{/if}}
+  {{if HasTrivialTimings}}
+  <a class="profiler-toggle-trivial" data-show-on-load="${HasAllTrivialTimings}" title="toggles any rows with &lt; ${TrivialDurationThresholdMilliseconds} ms">
+    show trivial
+  </a>
+  {{/if}}
+</script>
+
+<script id="timingTemplate" type="text/x-jquery-tmpl">
+
+  <tr class="{{if timing.IsTrivial }}profiler-trivial{{/if}}" data-timing-id="${timing.Id}">
+    <td class="profiler-label" title="{{if timing.Name && timing.Name.length > 45 }}${timing.Name}{{/if}}">
+      <span class="profiler-indent">${MiniProfiler.renderIndent(timing.Depth)}</span> ${timing.Name.slice(0,45)}{{if timing.Name && timing.Name.length > 45 }}...{{/if}}
+    </td>
+    <td class="profiler-duration" title="duration of this step without any children's durations">
+      ${MiniProfiler.formatDuration(timing.DurationWithoutChildrenMilliseconds)}
+    </td>
+    <td class="profiler-duration profiler-duration-with-children" title="duration of this step and its children">
+      ${MiniProfiler.formatDuration(timing.DurationMilliseconds)}
+    </td>
+    <td class="profiler-duration time-from-start" title="time elapsed since profiling started">
+      <span class="profiler-unit">+</span>${MiniProfiler.formatDuration(timing.StartMilliseconds)}
+    </td>
+
+  {{if timing.HasSqlTimings}}
+    <td class="profiler-duration {{if timing.HasDuplicateSqlTimings}}profiler-warning{{/if}}" title="{{if timing.HasDuplicateSqlTimings}}duplicate queries detected - {{/if}}{{if timing.ExecutedReaders > 0 || timing.ExecutedScalars > 0 || timing.ExecutedNonQueries > 0}}${timing.ExecutedReaders} reader, ${timing.ExecutedScalars} scalar, ${timing.ExecutedNonQueries} non-query statements executed{{/if}}">
+      <a class="profiler-queries-show">
+        {{if timing.HasDuplicateSqlTimings}}<span class="profiler-nuclear">!</span>{{/if}}
+        ${timing.SqlTimings.length} <span class="profiler-unit">sql</span>
+      </a>
+    </td>
+    <td class="profiler-duration" title="aggregate duration of all queries in this step (excludes children)">
+      ${MiniProfiler.formatDuration(timing.SqlTimingsDurationMilliseconds)}
+    </td>
+  {{else}}
+    <td colspan="2"></td>
+  {{/if}}
+
+  {{each page.CustomTimingNames}}
+    {{if timing.CustomTimings && timing.CustomTimings[$value]}}
+      <td class="profiler-duration" title="aggregate number of all ${$value.toLowerCase()} invocations in this step (excludes children)">
+        ${timing.CustomTimings[$value].length} ${$value.toLowerCase()}
+      </td>
+      <td class="profiler-duration" title="aggregate duration of all ${$value.toLowerCase()} invocations in this step (excludes children)">
+        ${MiniProfiler.formatDuration(timing.CustomTimingStats[$value].Duration)}
+      </td>
+    {{else}}
+      <td colspan="2"></td>
+    {{/if}}
+  {{/each}}
+
+  </tr>
+
+  {{if timing.HasChildren}}
+    {{each timing.Children}}
+      {{tmpl({timing: $value, page: page}) "#timingTemplate"}}
+    {{/each}}
+  {{/if}}
+
+</script>
+
+<script id="sqlTimingTemplate" type="text/x-jquery-tmpl">
+
+  <tr class="{{if i % 2 == 1}}profiler-odd{{/if}}" data-timing-id="${s.ParentTimingId}">
+    <td class="profiler-info">
+      <div>${s.ParentTimingName}</div>
+      <div class="profiler-number"><span class="profiler-unit">T+</span>${MiniProfiler.formatDuration(s.StartMilliseconds)} <span class="profiler-unit">ms</span></div>
+      <div>
+        {{if s.IsDuplicate}}<span class="profiler-warning">DUPLICATE</span>{{/if}}
+        ${MiniProfiler.renderExecuteType(s.ExecuteType)}
+      </div>
+      <div title="{{if s.ExecuteType == 3}}first result fetched: ${s.FirstFetchDurationMilliseconds}ms{{/if}}">${MiniProfiler.formatDuration(s.DurationMilliseconds)} <span class="profiler-unit">ms</span></div>
+    </td>
+    <td>
+      <div class="query">
+        <pre class="profiler-stack-trace">${s.StackTraceSnippet}</pre>
+        <pre class="prettyprint lang-sql"><code>${s.FormattedCommandString}   </code></pre>
+      </div>
+    </td>
+  </tr>
+
+</script>
+
+<script id="sqlGapTemplate" type="text/x-jquery-tmpl">
+
+  <tr class="profiler-gap-info{{if g.duration < 4}} profiler-trivial-gaps{{/if}}">
+    <td class="profiler-info">
+      ${g.duration} <span class="profiler-unit">ms</span>  
+    </td>
+    <td class="query">
+      <div>${g.topReason.name} &mdash; ${g.topReason.duration.toFixed(2)} <span class="profiler-unit">ms</span></div>
+    </td>
+  </tr>
+
+</script>
+</body></html>
